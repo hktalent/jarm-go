@@ -1,7 +1,5 @@
 package fuzz
 
-import "github.com/hdm/jarm-go"
-
 var fuzzProbes = jarm.GetProbes("placeholder", 443)
 
 // Fuzz uses go-fuzz to test ParseServerHello()
